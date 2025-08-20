@@ -5,14 +5,14 @@
 
 > Objective: Only receive messages that belong to your student ID.
 
-Answer: topic = "test/qos/6510301002"
+Answer: topic = "test/qos/6510301002/#"
 
 
 ## Part 2: Subscribe to all students’ temperature data
 
 > Objective: Receive temperature data from every student.
 
-Answer: test/qos/6510301002/temperature
+Answer: test/qos/+/temperature
 
 
 ## Part 3: Subscribe to all messages under test/qos/
